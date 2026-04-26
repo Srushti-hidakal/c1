@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('CHECKOUT') {
             steps {
-                git 'https://github.com/Srushti-hidakal/c1.git'
+                git branch 'main',url: 'https://github.com/Srushti-hidakal/c1.git'
             }
         }
 
